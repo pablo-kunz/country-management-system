@@ -102,6 +102,7 @@ https://github.com/pablokunz10/tpi_gestion_paises_python
   
 🎥 Video explicativo: 
 
+https://1drv.ms/v/c/cd1ae98356cd39a2/IQCF03g-nHQ_Q710jXxUhlRhAa8IJzWy8_5_3-UpzObDmuc?e=FwtJDT
 
 
 Programación 1 — Tecnicatura Universitaria en Programación a Distancia (UTN)
