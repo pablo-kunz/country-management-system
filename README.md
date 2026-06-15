@@ -94,7 +94,7 @@ Japón,125800000,377975,Asia
 
 ## Documentación
 
-📄 Documento PDF: Documentacion_TPI_Programacion1.pdf
+📄 Documento PDF: Documentacion_TPI_Programacion1.pdf https://github.com/pablokunz10/tpi_gestion_paises_python/blob/main/Documentacion_TPI_Programacion1.pdf
 
 ## Repositorio
 
