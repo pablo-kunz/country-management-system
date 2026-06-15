@@ -94,7 +94,7 @@ Japón,125800000,377975,Asia
 
 ## Documentación
 
-📄 Documento PDF: [PDF_TPI_Programacion1.pdf](PDF_TPI_Programacion1.pdf)
+📄 Documento PDF: Documentacion_TPI_Programacion1.pdf
 
 ## Repositorio
 
