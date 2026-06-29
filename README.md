@@ -1,108 +1,116 @@
-# Gestión de Datos de Países en Python
+# Country Data Management System 🌍
 
-Trabajo Práctico Integrador (TPI) — Programación 1
-Tecnicatura Universitaria en Programación a Distancia (UTN)
+**Integrative Final Project (TPI) — Programming 1**
+Universidad Tecnológica Nacional (UTN) — Programming Technician Degree
 
-## Integrantes
+**Developed by:** Pablo Kunz & Magali Tron
 
-- Pablo Kunz
-- Magali Tron
+---
 
-## Descripción
+## Description
 
-Aplicación de consola desarrollada en Python que permite gestionar información
-de países (nombre, población, superficie y continente), aplicando listas,
-diccionarios, funciones, condicionales, ordenamientos y estadísticas básicas.
+Console-based application built in Python for managing country data (name, population, area, and continent). The system applies core programming concepts including lists, dictionaries, functions, conditionals, sorting algorithms, and basic statistics.
 
-Los datos se almacenan en un archivo CSV (`paises.csv`), que se carga al
-iniciar el programa y se actualiza al guardar los cambios.
+Data is stored in a CSV file (`paises.csv`), which is loaded at startup and updated when changes are saved.
 
-## Estructura del proyecto
+---
 
-```
-├── main.py            # Punto de entrada: menú principal
-├── archivos.py        # Carga y guardado del CSV
-├── gestion.py         # Agregar, actualizar y buscar países
-├── filtros_orden.py   # Filtros y ordenamientos
-├── estadisticas.py    # Cálculo de estadísticas
-├── paises.csv         # Dataset base de países
+## Project Structure
+├── main.py            # Entry point: main menu and program flow
+
+├── archivos.py        # CSV reading and writing
+
+├── gestion.py         # Add, update, and search countries
+
+├── filtros_orden.py   # Filtering and sorting logic
+
+├── estadisticas.py    # Statistics calculations
+
+├── paises.csv         # Base country dataset
+
 └── README.md
-```
 
-## Requisitos
+## Requirements
 
-- Python 3.x (no requiere librerías externas)
+- Python 3.x (no external libraries required)
 
-## Cómo ejecutar
+---
 
-1. Cloná o descargá este repositorio.
-2. Asegurate de que todos los archivos estén en la misma carpeta.
-3. Ejecutá desde la terminal:
+## How to Run
+
+1. Clone or download this repository.
+2. Make sure all files are in the same folder.
+3. Run from the terminal:
 
 ```bash
 python3 main.py
 ```
 
-## Funcionalidades
+---
 
-El programa ofrece un menú con las siguientes opciones:
+## Features
 
-1. Mostrar todos los países
-2. Agregar país (no permite campos vacíos)
-3. Actualizar población y superficie de un país
-4. Buscar país por nombre (coincidencia parcial o exacta)
-5. Filtrar por continente (sin distinguir mayúsculas ni tildes)
-6. Filtrar por rango de población
-7. Filtrar por rango de superficie
-8. Ordenar países por nombre, población o superficie (ascendente/descendente)
-9. Mostrar estadísticas (mayor/menor población, promedios, países por continente)
-10. Guardar cambios en el archivo CSV
-0. Salir (guarda automáticamente antes de cerrar)
+1. Display all countries
+2. Add a new country (empty fields not allowed)
+3. Update population and area of a country
+4. Search country by name (partial or exact match)
+5. Filter by continent (case-insensitive, accent-insensitive)
+6. Filter by population range
+7. Filter by area range
+8. Sort countries by name, population, or area (ascending/descending)
+9. Show statistics (highest/lowest population, averages, countries per continent)
+10. Save changes to CSV file
+11. Exit (auto-saves before closing)
 
-## Ejemplo de uso
+---
 
-```
-===== GESTIÓN DE PAÍSES =====
-1. Mostrar todos los países
-2. Agregar país
+## Example Output
+
+===== COUNTRY MANAGEMENT =====
+
+Show all countries
+Add country
+
 ...
-9. Mostrar estadísticas
-0. Salir
-Seleccione una opción: 9
+Show statistics
+Exit
 
---- ESTADÍSTICAS ---
-País con mayor población: Brasil (213993437 hab.)
-País con menor población: Australia (25690000 hab.)
-Promedio de población: 99711304.50 hab.
-Promedio de superficie: 3454273.00 km²
+Select an option: 9
 
-Cantidad de países por continente:
-  América: 2
-  Asia: 1
-  Europa: 1
-  África: 1
-  Oceanía: 1
-```
+--- STATISTICS ---
 
-## Formato del CSV
+Country with highest population: Brazil (213,993,437 inhabitants)
 
-```csv
+Country with lowest population: Australia (25,690,000 inhabitants)
+
+Average population: 99,711,304.50 inhabitants
+
+Average area: 3,454,273.00 km²
+Countries per continent:
+
+Americas: 2
+
+Asia: 1
+
+Europe: 1
+
+Africa: 1
+
+Oceania: 1
+
+---
+
+## CSV Format
+
 nombre,poblacion,superficie,continente
+
 Argentina,45376763,2780400,América
-Japón,125800000,377975,Asia
-```
 
-## Documentación
+Japan,125800000,377975,Asia
 
-📄 Documento PDF: Documentacion_TPI_Programacion1.pdf https://github.com/pablokunz10/tpi_gestion_paises_python/blob/main/Documentacion_TPI_Programacion1.pdf
+---
 
-## Repositorio
+## Documentation
 
-https://github.com/pablokunz10/tpi_gestion_paises_python
-  
-🎥 Video explicativo: 
+📄 [Full project documentation (PDF)](Documentacion_TPI_Programacion1.pdf)
 
-https://1drv.ms/v/c/cd1ae98356cd39a2/IQCF03g-nHQ_Q710jXxUhlRhAa8IJzWy8_5_3-UpzObDmuc?e=FwtJDT
-
-
-Programación 1 — Tecnicatura Universitaria en Programación a Distancia (UTN)
